@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,9 +8,14 @@
   <meta name="description" content="Una galería romántica de nuestros mejores momentos juntos. Feliz San Valentín." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/png" href="media/favicon_1771081713402.png">
+  <link rel="apple-touch-icon" href="media/favicon_1771081695248.png">
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
   <!-- Floating hearts background -->
@@ -19,8 +25,8 @@
   <header class="hero">
     <div class="hero-content">
       <h1 class="hero-title">Nuestros Recuerdos</h1>
-      <p class="hero-subtitle">Los mejores momentos juntos ❤️</p>
-      <p class="hero-date">San Valentín 2026</p>
+      <p class="hero-subtitle">Inmortalizados</p>
+      <p class="hero-date">hecho para San Valentín 2026 :p</p>
     </div>
     <div class="hero-scroll-hint">
       <span>▼</span>
@@ -29,16 +35,17 @@
 
   <!-- Upload Section -->
   <section class="upload-section" id="uploadSection">
-    <h2 class="section-title">Subí nuestros recuerdos</h2>
+    <h2 class="section-title">Aca subimos recuerdos</h2>
     <p class="section-desc">Arrastrá fotos y videos acá, o hacé clic para seleccionarlos</p>
 
     <div class="drop-zone" id="dropZone">
       <div class="drop-zone-content">
         <div class="drop-zone-icon">
-          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-            <polyline points="17 8 12 3 7 8"/>
-            <line x1="12" y1="3" x2="12" y2="15"/>
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="17 8 12 3 7 8" />
+            <line x1="12" y1="3" x2="12" y2="15" />
           </svg>
         </div>
         <p class="drop-zone-text">Arrastrá archivos acá</p>
@@ -68,8 +75,7 @@
 
     <div class="gallery-empty" id="galleryEmpty" hidden>
       <div class="empty-icon">💕</div>
-      <p>Todavía no hay recuerdos.</p>
-      <p>¡Subí tu primera foto o video!</p>
+      <p>Todavía no hay recuerdos subidos. ponganle voluntad loco</p>
     </div>
   </section>
 
@@ -79,17 +85,19 @@
     <div class="lightbox-content" id="lightboxContent"></div>
     <div class="lightbox-actions">
       <button class="lightbox-btn" id="lightboxDownload" title="Descargar">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-          <polyline points="7 10 12 15 17 10"/>
-          <line x1="12" y1="15" x2="12" y2="3"/>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <polyline points="7 10 12 15 17 10" />
+          <line x1="12" y1="15" x2="12" y2="3" />
         </svg>
         Descargar
       </button>
       <button class="lightbox-btn lightbox-btn-danger" id="lightboxDelete" title="Eliminar">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="3 6 5 6 21 6"/>
-          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="3 6 5 6 21 6" />
+          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
         </svg>
         Eliminar
       </button>
@@ -102,9 +110,10 @@
   <div class="toast-container" id="toastContainer"></div>
 
   <footer class="footer">
-    <p>Hecho con ❤️ para nosotros</p>
+    <p>Hecho con amor para Emu ❤️</p>
   </footer>
 
   <script src="app.js"></script>
 </body>
+
 </html>
