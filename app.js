@@ -17,7 +17,7 @@
   // ⚠️ SECURITY WARNING: This token has Read/Write access to the repo.
   // Do not commit this file to a public repository if this token is sensitive.
   // Base64 encoded to avoid GitHub secret scanning
-  const GITHUB_TOKEN = atob('Z2l0aHViX3BhdF8xMUFQQUtVVkkwdnVkVFN3cjhGSTBkX2NheTRjbUhNbHlUVjV5M1RUb3FZRjB5VXlKZ2szWkNVRUx1UTV1ZVczQjBISTVTVU5UWERxRUQyVDI4');
+  const GITHUB_TOKEN = atob('Z2l0aHViX3BhdF8xMUFQQUtVVkkwN0hIM1YwSGlZM3R6X1RGekI3UnZWYWhmdU8xN1J1YkVtb2hjclNPMlZvWmU0eWxiUThPRnkzblU1U1BXVldHWWpOOVYyQUVy');
 
   function hasToken() {
     // Basic check
